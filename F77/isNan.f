@@ -2,14 +2,16 @@
 
       implicit none
 
-      real :: a(10)
-      logical :: b(10)
-      integer :: i
+      real :: a(5,5)
+      logical :: b(5,5)
+      integer :: i,j
 
-      do i=1,10
-         a(i) = i
+      do i=1,5
+         do j=1,5
+           a(i,j) = i
+         enddo
       enddo 
-      a(1) = -1
+      a(3,5) = -1
 
       write(*,*) a
       a = sqrt(a)
@@ -17,9 +19,16 @@
 
 
       b = a.eq.a
-      write(*,*) b
 
-c      if (isnan(a)) stop '"a" is a NaN'
+      do i=1,5
+         do j=1,5
+            if (a(i,j) .ne. a(i,j)) write(*,*) 'hey!!!',i,j
+         enddo
+      enddo
+c      write(*,*) b
+c      if (b(i,j) .eqv. .false.) stop 'hey'
+
+c      if (isNan(a)) stop '"a" is a NaN'
 
 c      write(*,*) a
 
