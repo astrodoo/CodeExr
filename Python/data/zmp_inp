@@ -1,0 +1,56 @@
+ &GEOMCONF  LGEOM    = 3, 
+            LDIMEN   = 2 /
+ &PHYSCONF  LRAD     = 0, 
+            XHYDRO   = .TRUE., 
+            XFORCE   = .TRUE., 
+            XMHD     = .false.,
+            XTOTNRG  = .false.,
+            XGRAV    = .false., 
+            XGRVFFT  = .false.,
+            XSPHGRV  = .false., 
+            XPTMASS  = .TRUE., 
+            XISO     = .false., 
+            XSUBAV   = .false., 
+            XVGRID   = .false. /
+ &IOCONF    XASCII   = .false., 
+            XHDF     = .TRUE.,
+            XRESTART = .TRUE., 
+            XTSL     = .false. /
+ &PRECONF   SMALL_NO = 1.0D-99, 
+            LARGE_NO = 1.0D+99 /
+ &ARRAYCONF IZONES   = 15, 
+            JZONES   = 15, 
+            KZONES   = 1,
+            MAXIJK   = 15/
+ &mpitop ntiles(1)=8,ntiles(2)=2,ntiles(3)=1,periodic=2*.false.,.TRUE. /
+ &rescon irestart=0,resfile='resaa000000.000',tdump=0.,dtdump=0.05,id='ra'/ 
+ &pcon  nlim=2000000000, tlim=12.0, cpulim= 100000000.0, mbatch=1 /
+ &hycon dfloor=1.0d-8, qcon=2.0,qlin=0.0,dtrat=1.0d-7,courno=0.5,iord=2/
+ &iib niis(1)= 7 /
+ &oib nois(1)= 2 /
+ &ijb nijs(1)= 1 /
+ &ojb nojs(1)= 1 /
+ &ikb niks(1)= 8 /
+ &okb noks(1)= 8 /
+ &ggen1 nbl=120,x1min=2.5d-3,x1max=2.5d2  ,igrid=1,x1rat=1.1d0,lgrid=.true. /
+ &ggen2 nbl=30,x2min=0.15708,x2max=2.98451,igrid=1,x2rat=1.0d0,lgrid=.true. /
+ &ggen3 nbl=1,x3min=3.0d-5,x3max=6.2831853,igrid=1,x3rat=1.0d0,lgrid=.true. /
+ &grvcon ptmass=0.0, x1ptm=0.0, x2ptm=0.0, x3ptm=0.0, guniv=111.14d0 /
+ &RADCON /
+ &RADEXP /
+ &EQOS   gamma=1.6666667,mmw=1.21d0 /
+ &gcon   x1fac=0.0, x2fac=0.0, x3fac=0.0, iga=3, jga=3, kga=3, igcon=0 /
+ &iocon  thdf=0., dthdf=0.0125, dttsl=1e-5, tusr=1., dtusr=0.05/
+ &cool     ftol=0.1d0, ilowt=0, lowt_cexp=1.5d0, lowt_ct0=2.d4, 
+           lowt_hexp=0.d0, lowt_ht0=2.d4 /
+ &agn_co   mbhi=12.d0, eme=1.d-3, emp=-1.d0, emm=-1.d0, ere=0.1d0, erp=0.1d0, 
+           erp_edd=0.1d0, fmiso=0.d0, ntheta=2.d0, alpha=0.1d0, nschi=5.d2, 
+           nscho=7.d4, fedd_blr=1.d0, theta_jet=5.d-2, imech=3, emexp=1.d0, 
+           irad=3, plines=1.d0, irt=1, esfact=1.d0, esfacti=1.d0, ssa=0. /
+ &cluster  sig=2.6d2, reff=6.9d0, mstar=12.1d3, rc=6.9d0, d0=1d-10, 
+           beta=0.6667d0, rmin=0.d0, ff = 2.d0 /
+ &good     csmin=0.1d0, csmax=3.d4, vmax=3.d4 /
+ &sf_co    isf=2, cstar=0.1d0, tau_ii=0.02d0, tau_delay=0.003d0, emass=0.2d0, 
+           esne=3.3d-6, dencox=1.d0, ncox=1.d0, ncoxlow=1.d0, theta=1.d0, 
+           mlb=5.8d0, fstat=1.d0, erad=1.5d-4, erate=0.d0, eratp=1.d0, 
+           rmin=0.00125d0, vos = 1.d0, dd = 0.01d0, k_sf = 0.5 /
