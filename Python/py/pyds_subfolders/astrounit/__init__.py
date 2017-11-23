@@ -1,1 +1,1 @@
-import astrounit
+from .astrounit import astrounit, info
