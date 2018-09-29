@@ -1,4 +1,5 @@
-// exercise class //
+/* HelloOOP.cpp
+  exercise class */
 #include <cstdio>
 
 class USERDATA
@@ -22,3 +23,7 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+
+
+

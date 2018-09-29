@@ -1,3 +1,4 @@
+//InlineSample.cpp
 // exercise inline function //
 #include <cstdio>
 
@@ -26,3 +27,7 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+
+
+

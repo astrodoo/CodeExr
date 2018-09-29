@@ -1,3 +1,4 @@
+//DefaultParam3.cpp
 #include <iostream>
 
 #define MYTYPE_A 0
@@ -12,3 +13,7 @@ int main(int argc, char* argv[])
     //std::cout << CalcLayout(10,5) << std::endl;
     std::cout << CalcLayout(10,5,MYTYPE_A) << std::endl;
 }
+
+
+
+
