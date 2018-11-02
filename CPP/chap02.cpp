@@ -19,7 +19,6 @@ int main(int argc, char* argv[])
 }
 
 
-
 //========================================================
 //DefaultParam2.cpp
 #include <iostream>
@@ -39,8 +38,6 @@ int main(int argc, char* argv[])
 }
 
 
-
-
 //========================================================
 //DefaultParam3.cpp
 #include <iostream>
@@ -57,7 +54,6 @@ int main(int argc, char* argv[])
     //std::cout << CalcLayout(10,5) << std::endl;
     std::cout << CalcLayout(10,5,MYTYPE_A) << std::endl;
 }
-
 
 
 
@@ -94,7 +90,6 @@ int main(int argc, char* argv[])
 
 
 
-
 //========================================================
 // FuncTemplate.cpp
 // function template for overloading //
@@ -114,8 +109,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -150,8 +143,6 @@ int main(int argc, char* argv[])
 }
 
 
-
-
 //========================================================
 // NamespaceSample.cpp
 #include <iostream>
@@ -173,8 +164,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -202,8 +191,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -235,8 +222,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -273,8 +258,6 @@ int main(int argc, char* argv[])
 }
 
 
-
-
 //========================================================
 // IdSearchSeq1.cpp
 #include <iostream>
@@ -292,8 +275,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -317,8 +298,6 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
 
 
 //========================================================
@@ -345,6 +324,3 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-
-

@@ -6,7 +6,9 @@ int main()
     cout << "Never fear, C++ is here!"; 
     return 0;
 }
-//#include "stdafx.h"
+
+
+//============================================================
 #include <iostream>
 
 int main(int argc, char* argv[])
@@ -15,6 +17,10 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+
+
+//============================================================
 #include <iostream>
 using namespace std;
 void line(), message();             // Prototypes
