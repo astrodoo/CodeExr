@@ -13,6 +13,8 @@
       enddo 
       a(3,5) = -1
 
+      print *, mod(7,3)
+
       write(*,*) a
       a = sqrt(a)
       write(*,*) a
