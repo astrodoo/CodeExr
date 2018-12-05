@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>FA832469-8427-4BA8-AA73-601F53C69934</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>FA832469-8427-4BA8-AA73-601F53C69934</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9vaywDAAAAAAQQMAAAAH0mICD+q3Vd9aGq5OWSYtCI
+				mnC1FgTMQKf9hOiKhV5nEAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAIAAAAAQEAAGFzdHJvZG9vBwAA
+				AAEBAABDb2RlRXhyAAMAAAABAQAAQ1BQAAYAAAABAQAA
+				Y2hhcDA0AAAUAAAAAQEAAENvcHlDb25zdHJ1Y3RvcjEu
+				Y3BwGAAAAAEGAAAQAAAAIAAAADAAAABAAAAATAAAAFwA
+				AAAIAAAABAMAAHoSAgAAAAAACAAAAAQDAAA6+QQAAAAA
+				AAgAAAAEAwAAduTiAAIAAAAIAAAABAMAALbk4gACAAAA
+				CAAAAAQDAABl5/4AAgAAAAgAAAAEAwAAnuf+AAIAAAAY
+				AAAAAQYAAJgAAACoAAAAuAAAAMgAAADYAAAA6AAAAAgA
+				AAAABAAAQcDblsVXYRcYAAAAAQIAAAEAAAAAAAAADwAA
+				AAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAACAAAA
+				CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAAB
+				CQAAZmlsZTovLy8IAAAAAQEAAGFzdHJvTWFjCAAAAAQD
+				AAAAYH8zHAAAAAgAAAAABAAAQb43F5IAAAAkAAAAAQEA
+				ADg5NDlDQjZFLTQ1QjItM0JGMi1BNTBGLTBCNTZCRkYx
+				MzNDNxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
+				AAAAAQAAAAEBAAAvAAAA5AAAAP7///8BAAAAAAAAABIA
+				AAAEEAAAeAAAAAAAAAAFEAAA+AAAAAAAAAAQEAAAKAEA
+				AAAAAABAEAAAGAEAAAAAAABVEAAAUAEAAAAAAABWEAAA
+				SAEAAAAAAAACIAAABAIAAAAAAAAFIAAAeAEAAAAAAAAQ
+				IAAAiAEAAAAAAAARIAAAuAEAAAAAAAASIAAAmAEAAAAA
+				AAATIAAAqAEAAAAAAAAgIAAA5AEAAAAAAAAwIAAASAEA
+				AAAAAAABwAAAXAEAAAAAAAARwAAAIAAAAAAAAAASwAAA
+				bAEAAAAAAAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/astrodoo/CodeExr/CPP/chap04/CopyConstructor1.cpp</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./chap04/CopyConstructor1.cpp</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>CopyConstructor1.cpp</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>
