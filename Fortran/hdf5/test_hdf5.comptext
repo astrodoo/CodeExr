@@ -1,5 +1,9 @@
+## linux or MacOSX
 ifort test_hdf5.f90 -I /usr/local/hdf5-1.10.4/include -L /usr/local/hdf5-1.10.4/lib -lhdf5_fortran
 
 or
 
 h5fc h5_crtdat.f90
+
+## window
+ifort test_hdf5.f90 -I"C:\Program Files\HDF_Group\HDF5\1.10.4\include\shared" -link -libpath:"C:\Program Files\HDF_Group\HDF5\1.10.4\lib" hdf5_fortran.lib
