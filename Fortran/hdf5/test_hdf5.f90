@@ -43,7 +43,7 @@ program test_hdf5
  
     call h5open_f(hdferr)
 
-    var_names = (/"global","global2"/)
+    var_names = (/"global ","global2"/)
     write(*,*) var_names
 !    CALL h5tget_size_f(H5T_NATIVE_INTEGER, type_sizei, hdferr)
 !    CALL h5tcreate_f(H5T_COMPOUND_F, type_sizei, dt2_id, hdferr)
