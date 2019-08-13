@@ -1,0 +1,1 @@
+icl h5_read.c -I"C:\Program Files\HDF_Group\HDF5\1.10.5\include" -DH5_BUILT_AS_DYNAMIC_LIB -link -libpath:"C:\Program Files\HDF_Group\HDF5\1.10.5\lib" hdf5.lib
