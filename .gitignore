@@ -1,4 +1,7 @@
-*/.ipynb_checkpoints/
-*/*/.ipynb_checkpoints/
-a.out
-*.swp
+**/.ipynb_checkpoints/
+**/a.out
+**.swp
+**.o
+**.h5
+**/*.exe
+**/*.obj

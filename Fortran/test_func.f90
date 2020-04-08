@@ -3,7 +3,7 @@ contains
 function f(x,ain)
     implicit none
     real(kind=8), intent(in) :: x
-    real(kind=8), optional :: ain
+    real(kind=8), intent(in), optional :: ain
     real(kind=8) :: f, a
 
     ! default value

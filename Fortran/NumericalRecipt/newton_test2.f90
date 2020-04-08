@@ -62,7 +62,7 @@ subroutine root_newton(f, fp, x0, x, farg1, maxiter_in, debug_in)
         x = x - deltax
 
         if (debug) then
-            write(12,*) k,x
+            write(*,12) iters,x
  12         format('After', i3, ' iterations, x = ', e22.15)
         endif
         if (iters > maxiter) then
