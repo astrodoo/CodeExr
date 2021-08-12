@@ -1,0 +1,1 @@
+icc -L /Users/astrodoo/gsl-2.6/lib -lgsl -lgslcblas -I /Users/astrodoo/gsl-2.6/include test_gsl.c
