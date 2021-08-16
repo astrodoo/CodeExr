@@ -45,6 +45,17 @@ program func_exe
     use funcs
     implicit none
     real(kind=8) :: y,z,a
+    real(kind=8), dimension(10) :: kk
+    character(len=3) :: str_kk
+
+    do a=1,10
+        kk(a) = a*20.
+    enddo
+
+    write(*,*) (int(kk(a)),a=1,10)
+
+    write(str_kk,'(I3.3)') int(kk(1))
+    write(*,*) 'hey_'//str_kk//'_print'
 
     a=10.
 
